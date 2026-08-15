@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Industrial engineering, plant maintenance, turnaround, mechanical, project and commercial services for oil & gas and petrochemical clients in Malaysia.">
+<title>Industrial Engineering & Project Services</title>
+<style>
+:root{--ink:#101418;--muted:#626b73;--line:#dfe3e6;--paper:#f7f7f5;--white:#fff;--accent:#c8922e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.55}
+a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 28px}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:.08em;font-size:15px}.brand span{display:block;font-weight:500;font-size:9px;letter-spacing:.22em;color:var(--muted);margin-top:2px}
+nav{display:flex;gap:26px;align-items:center;font-size:13px;font-weight:650}nav a:hover{color:var(--accent)}.nav-cta{padding:11px 16px;border:1px solid var(--ink)}
+.hero{background:var(--paper);padding:105px 0 90px;border-bottom:1px solid var(--line)}.eyebrow{font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:22px}
+h1{font-size:clamp(48px,7vw,86px);line-height:.98;letter-spacing:-.055em;max-width:900px;margin:0 0 30px;font-weight:850}h2{font-size:clamp(32px,4vw,54px);line-height:1.02;letter-spacing:-.04em;margin:0 0 22px}h3{font-size:20px;margin:0 0 10px}.lead{font-size:19px;color:var(--muted);max-width:720px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.btn{display:inline-block;padding:14px 20px;border:1px solid var(--ink);font-weight:750;font-size:13px}.btn.dark{background:var(--ink);color:white}.btn:hover{transform:translateY(-1px)}
+.vendor-strip{background:#11161a;color:#fff;border-bottom:1px solid #2c3338}.vendor-inner{min-height:150px;display:flex;align-items:center;justify-content:space-between;gap:30px}.vendor-label{font-size:10px;letter-spacing:.18em;font-weight:800;color:var(--accent);margin-bottom:8px}.vendor-strip h2{font-size:28px;letter-spacing:-.03em;margin:0 0 5px}.vendor-strip p{margin:0;color:#aeb5ba;font-size:13px}.vendor-strip .btn{border-color:#fff}.vendor-strip .btn.dark{background:#fff;color:#101418}.stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}.stat{padding:30px 20px;border-right:1px solid var(--line)}.stat:last-child{border-right:0}.stat strong{display:block;font-size:28px;letter-spacing:-.03em}.stat small{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.1em}
+section{padding:95px 0}.intro{display:grid;grid-template-columns:.9fr 1.1fr;gap:90px}.muted{color:var(--muted)}
+.services{background:var(--ink);color:#fff}.services .muted{color:#aeb5ba}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);margin-top:48px;border-top:1px solid #394047}.service{padding:34px 25px 42px 0;border-bottom:1px solid #394047}.service:nth-child(3n+2),.service:nth-child(3n+3){padding-left:25px;border-left:1px solid #394047}.num{font-size:11px;color:var(--accent);font-weight:800;letter-spacing:.12em;margin-bottom:38px}.service p{color:#b7bdc1;margin:0;font-size:14px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}.panel{background:#fff;padding:48px}.panel .tag{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:800}.panel ul{padding-left:18px;color:var(--muted)}
+.experience{background:var(--paper)}.timeline{margin-top:45px;border-top:1px solid var(--line)}.exp{display:grid;grid-template-columns:220px 1fr;gap:50px;padding:30px 0;border-bottom:1px solid var(--line)}.exp-year{font-weight:800}.exp p{margin:5px 0 0;color:var(--muted)}
+.people{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:45px}.person{border:1px solid var(--line);padding:34px}.role{color:var(--accent);font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:800}.person ul{color:var(--muted);padding-left:18px}
+.approach{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:48px}.step{padding:30px 18px;border-right:1px solid var(--line)}.step:last-child{border-right:0}.step b{font-size:25px}.step span{display:block;color:var(--muted);font-size:13px;margin-top:8px}
+.contact{background:var(--ink);color:#fff}.contact .muted{color:#aeb5ba}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px}.contact-card{border-top:1px solid #394047;padding-top:25px;margin-top:28px}.contact-card a{color:#fff;text-decoration:underline;text-underline-offset:4px}
+footer{background:#0b0e11;color:#858c91;padding:25px 0;font-size:11px}.footer{display:flex;justify-content:space-between;gap:20px}
+.mobile{display:none}
+@media(max-width:850px){.vendor-inner{padding-top:30px;padding-bottom:30px;align-items:flex-start;flex-direction:column}.vendor-strip .btn{margin-top:5px}nav{display:none}.mobile{display:block}.stats{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.intro,.contact-grid,.people,.split{grid-template-columns:1fr;gap:30px}.service-grid{grid-template-columns:1fr}.service,.service:nth-child(3n+2),.service:nth-child(3n+3){padding:30px 0;border-left:0}.exp{grid-template-columns:1fr;gap:5px}.approach{grid-template-columns:1fr 1fr}.step:nth-child(2){border-right:0}.step:nth-child(-n+2){border-bottom:1px solid var(--line)}.wrap{padding:0 20px}.hero{padding:75px 0 65px}section{padding:70px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#">BIMA TITANIUM<span>INDUSTRIAL ENGINEERING & PROJECT SERVICES</span></a>
+<nav><a href="#services">Services</a><a href="#capabilities">Capabilities</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#hse">HSE</a><a class="nav-cta" href="#contact">Contact</a></nav>
+<div class="mobile">☰</div>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+<div class="eyebrow">Malaysia · Oil & Gas · Petrochemical</div>
+<h1>Experience that executes.</h1>
+<p class="lead">A PETRONAS-registered Malaysian supplier and service provider supporting industrial clients with approved hardware, manpower, office and facility service categories.</p>
+<div class="buttons"><a class="btn dark" href="#services">Our Services</a><a class="btn" href="#contact">Talk to Us</a></div>
+</div></section>
+
+<section class="vendor-strip" aria-label="PETRONAS registered vendor">
+<div class="wrap vendor-inner">
+<div>
+<div class="vendor-label">PETRONAS REGISTERED VENDOR</div>
+<h2>Bima Titanium Sdn. Bhd.</h2>
+<p>Registration No. 202501006713 · 12 active SWEC categories · Valid until 18 February 2029</p>
+</div>
+<a class="btn dark" href="#capabilities">View SWEC Scope</a>
+</div>
+</section>
+
+<div class="wrap stats">
+<div class="stat"><strong>29+</strong><small>Years plant experience</small></div>
+<div class="stat"><strong>Turnaround</strong><small>Shutdown & maintenance</small></div>
+<div class="stat"><strong>Commercial</strong><small>Contracts & procurement</small></div>
+<div class="stat"><strong>Malaysia</strong><small>Oil & gas focus</small></div>
+</div>
+
+<section id="about"><div class="wrap intro">
+<div><div class="eyebrow">Who we are</div><h2>Built by industry veterans. Focused on execution.</h2></div>
+<div><p class="lead">Our company was established by senior professionals who spent their careers working across oil & gas, petrochemical and industrial environments.</p><p class="muted">We combine plant execution experience with contract, procurement and commercial discipline — giving clients a contractor that understands both how the work is performed and how it must be controlled.</p></div>
+</div></section>
+
+<section id="services" class="services"><div class="wrap">
+<div class="eyebrow">What we supply & provide</div><h2>Approved categories. Clear capabilities.</h2><p class="muted">Our current PETRONAS SWEC approvals cover industrial hardware, selected equipment and spare parts, manpower, office supplies and facility services.</p>
+<div class="service-grid">
+<div class="service"><div class="num">01 / HARDWARE</div><h3>Hardware</h3><p>General hardware supply under our approved PETRONAS SWEC category.</p></div>
+<div class="service"><div class="num">02 / ELECTRICAL</div><h3>Cable Trays, Ladders & Conduits</h3><p>Supply of cable trays, ladders and conduits under the approved category.</p></div>
+<div class="service"><div class="num">03 / AUTOMOTIVE</div><h3>Motor Vehicles</h3><p>Motor vehicle supply under the approved PETRONAS SWEC category.</p></div>
+<div class="service"><div class="num">04 / INDUSTRIAL</div><h3>Bearings</h3><p>Supply of bearings for industrial requirements.</p></div>
+<div class="service"><div class="num">05 / SPARES</div><h3>Spare Parts — Couplings</h3><p>Supply of coupling spare parts under the approved category.</p></div>
+<div class="service"><div class="num">06 / MANPOWER</div><h3>General & Skilled Manpower</h3><p>Self-operated manpower services covering approved general and skilled manpower categories.</p></div>
+<div class="service"><div class="num">07 / OFFICE</div><h3>Office Materials & Consumables</h3><p>Supply of approved office materials and consumables.</p></div>
+<div class="service"><div class="num">08 / EQUIPMENT</div><h3>Kitchen & Office Equipment</h3><p>Supply of kitchen equipment and office equipment.</p></div>
+<div class="service"><div class="num">09 / FACILITIES</div><h3>Cleaning & Laundry Services</h3><p>Self-operated building cleaning and laundry & dry-cleaning services.</p></div>
+</div>
+
+<section id="capabilities"><div class="wrap">
+<div class="eyebrow">Registration & scope</div><h2>Registered to supply. Approved to operate.</h2>
+<p class="lead">Bima Titanium Sdn. Bhd. is registered in Malaysia and holds active PETRONAS SWEC approvals across supply, manpower and facility-service categories.</p>
+<div class="split">
+<div class="panel"><div class="tag">Company</div><h3>Bima Titanium Sdn. Bhd.</h3>
+<p class="muted"><strong>Registration No.:</strong> 202501006713</p>
+<p class="muted"><strong>Address:</strong><br>NO. 518, GROUND FLOOR, PARKCITY COMMERCE SQUARE, (PHASE 6), JALAN DIWARTA, 97000 BINTULU, SARAWAK</p>
+</div>
+<div class="panel"><div class="tag">PETRONAS SWEC</div><h3>Active until 18 February 2029</h3>
+<p class="muted">Current registration information supplied for Bima Titanium shows these categories as approved and active.</p>
+<ul>
+<li>11121000P — Hardware</li>
+<li>14101000P — Cable Trays/Ladders/Conduits</li>
+<li>16221100P — Motor Vehicle</li>
+<li>16261100P — Bearings</li>
+<li>16261300P — Spare Parts - Couplings</li>
+<li>19121000S — General Manpower</li>
+<li>19121200S — Skilled Manpower</li>
+<li>25171200P — Office Materials & Consumables</li>
+<li>25181400P — Kitchen Equipment</li>
+<li>25181500P — Office Equipment</li>
+<li>25201000S — Building Cleaning Services</li>
+<li>25201100S — Laundry & Dry Cleaning Services</li>
+</ul>
+</div>
+</div>
+</div></section>
+
+<section id="experience" class="experience"><div class="wrap">
+<div class="eyebrow">Experience behind our leadership</div><h2>Decades of industry experience. A new contractor built to deliver.</h2>
+<p class="lead">The company is newly established, while its leadership brings extensive experience from oil & gas, petrochemical and industrial plant environments.</p>
+<div class="timeline">
+<div class="exp"><div class="exp-year">MLNG / Plant</div><div><h3>Plant maintenance & turnaround</h3><p>Site supervision, mechanical works, plant facilities, shutdown planning, contractor coordination and project execution.</p></div></div>
+<div class="exp"><div class="exp-year">PETRONAS</div><div><h3>Procurement & East Malaysia operations</h3><p>Procurement support across midstream and downstream requirements, value creation and mobilisation coordination.</p></div></div>
+</div>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<div class="eyebrow">Leadership</div><h2>The people behind the company.</h2>
+<div class="people">
+<div class="person"><div class="role">Plant Engineering & Turnaround</div><h3>Jamry Wan Ding</h3><p class="muted">Experienced plant engineering professional with 29 years across oil & gas, petrochemical and industrial plant sectors.</p><ul><li>Site Supervisor — 1994–2014</li><li>Turnaround Manager — 2015–2023</li><li>Head of Plant Project — 2023–2024</li></ul></div>
+<div class="person"><div class="role">Contracts & Commercial Management</div><h3>Tito Lamat Jayan</h3><p class="muted">Contract and procurement professional with experience across PETRONAS, major chemical operations and large maintenance programmes.</p><ul><li>PETRONAS Procurement Executive</li><li>Strategic maintenance contracting</li><li>Contract negotiation & administration</li><li>Strategic sourcing & cost management</li></ul></div>
+</div>
+</div></section>
+
+<section id="hse"><div class="wrap">
+<div class="eyebrow">HSE & quality</div><h2>Safe execution. Clear accountability. Controlled delivery.</h2>
+<p class="lead">Safety and quality are treated as part of planning and execution — not as an afterthought.</p>
+<div class="approach">
+<div class="step"><b>01</b><span>Plan</span></div><div class="step"><b>02</b><span>Execute</span></div><div class="step"><b>03</b><span>Control</span></div><div class="step"><b>04</b><span>Deliver</span></div>
+</div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap contact-grid">
+<div><div class="eyebrow">Start a conversation</div><h2>Have a project or maintenance requirement?</h2><p class="muted">Tell us what you need. Our team can discuss the scope, execution requirements and commercial approach.</p><div class="buttons"><a class="btn" href="mailto:jamrywanding@yahoo.com">Email Us</a></div></div>
+<div><div class="contact-card"><strong>COMPANY</strong><p class="muted">Bima Titanium Sdn. Bhd.<br>Malaysia</p></div><div class="contact-card"><strong>EMAIL</strong><p><a href="mailto:jamrywanding@yahoo.com">jamrywanding@yahoo.com</a></p></div><div class="contact-card"><strong>CAPABILITY</strong><p class="muted">Hardware · Cable Trays · Motor Vehicles · Bearings · Spare Parts · Manpower · Office & Facility Services</p></div></div>
+</div></section>
+</main>
+<footer><div class="wrap footer"><span>© 2026 Bima Titanium Sdn. Bhd.</span><span>Industrial Engineering & Project Services</span></div></footer>
+</body></html>
